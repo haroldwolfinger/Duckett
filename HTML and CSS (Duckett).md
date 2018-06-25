@@ -15,14 +15,16 @@
 
 
 <dl> **Syntax**
-#### <dt> /<h1/>/<//h1/> ... /<h6/>/</h6/> </dt>
-#### <dt> /<p/>/<//p/> </dt>
-#### <dt> /<b/>/<//b/> or /<strong/>/<//strong/> and /<i/>/<//i/> or /<em/>/<//em/> bold & italics </dt>
-#### <dt> /<sup/>/<//sup/> and /<sub>/<//sub/> superscript & subscript </dt>
-#### <dt> /<br ///> and /<hr ///> line break and horizontal rule (empty element - doesn't need opening /& closing tag) </dt>
-#### <dt> /<blockquote/>/<//blockquote/> longer quotes that take up an entire paragraph, usually indents the contents (although you shouldn't use this *just* to indent; instead, do it using CSS) </dt>
-#### <dt> /<q/>/<//q/> shorter quotes </dt>
+<dt> /<h1/>/<//h1/> ... /<h6/>/</h6/> </dt>
+<dt> /<p/>/<//p/> </dt>
+<dt> /<b/>/<//b/> or /<strong/>/<//strong/> and /<i/>/<//i/> or /<em/>/<//em/> bold & italics </dt>
+<dt> /<sup/>/<//sup/> and /<sub>/<//sub/> superscript & subscript </dt>
+<dt> /<br ///> and /<hr ///> line break and horizontal rule (empty element - doesn't need opening /& closing tag) </dt>
+<dt> /<blockquote/>/<//blockquote/> longer quotes that take up an entire paragraph, usually indents the contents (although you shouldn't use this *just* to indent; instead, do it using CSS) </dt>
+<dt> /<q/>/<//q/> shorter quotes </dt>
+</dl>
 
+<dl>
 #### **Other Syntax Mentioned (pp.53-56)**
 #### <abbr></abbr> use <abbr title=""> to specify the full term
 #### <cite></cite> indicate where the citation is from
