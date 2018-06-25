@@ -38,7 +38,9 @@
 - A table is drawn out row by row.  Each row is created with the <tr> element.
 - Inside each row there are a number of cells represented by the <td> element (or <th> if it is a header).
 - You can make cells of a table span more than one row or column using the rowspan and colspan attributes.
-- For long tables you can split the table into a ```<thread>```, ```<tbody>```, and ```<tfoot>```.
+```
+- For long tables you can split the table into a <thread>, <tbody>, and <tfoot>.
+```
 
 **# Chapter 7 : Forms (pp. 144-175)**
 - Whenever you want to collect information from visitors you will need a form, which lives inside a <form> element.
