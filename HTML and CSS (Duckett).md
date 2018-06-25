@@ -13,32 +13,6 @@
 - HTML elements are used to describe the structure of the page (e.g. headings, subheadings, paragraphs).
 - They also provide semantic information (e.g. where emphasis should be placed, the definition of any acronyms used, when given text is a quotation).
 
-
-<dl> **Syntax**
-<dt> /<h1/>/<//h1/> ... /<h6/>/</h6/> </dt>
-<dt> /<p/>/<//p/> </dt>
-<dt> /<b/>/<//b/> or /<strong/>/<//strong/> and /<i/>/<//i/> or /<em/>/<//em/> bold & italics </dt>
-<dt> /<sup/>/<//sup/> and /<sub>/<//sub/> superscript & subscript </dt>
-<dt> /<br ///> and /<hr ///> line break and horizontal rule (empty element - doesn't need opening /& closing tag) </dt>
-<dt> /<blockquote/>/<//blockquote/> longer quotes that take up an entire paragraph, usually indents the contents (although you shouldn't use this *just* to indent; instead, do it using CSS) </dt>
-<dt> /<q/>/<//q/> shorter quotes </dt>
-</dl>
-
-<dl>
-#### **Other Syntax Mentioned (pp.53-56)**
-#### <abbr></abbr> use <abbr title=""> to specify the full term
-#### <cite></cite> indicate where the citation is from
-#### <dfn></dfn> definition - used to indicate the defining instance of a new term
-#### <address></address> address, e.g.
-#### > <address> <
-#### >   <p><a href="mailto: joe@example.org" <
-#### >     joe@example.org</a></p> <
-#### >   <p> the physical address </p> <
-#### > </address>
-
-#### <ins></ins>, <del></del>, and <s></s> insert (underline), delete (strikethrough), and strikethrough (same)
-</dl>
-
 **# Chapter 3 : Lists (pp. 62-73)**
 - There are three types of HTML lists: ordered, unordered, and definition.
 - Ordered lists use numbers.
@@ -46,26 +20,12 @@
 - Definition lists are used to define terminology.
 - Lists can be nested inside one another.
 
-#### **Syntax**
-#### <ol>, <ul>, and <li> ordered list, unordered list, and list item
-#### <dl> definition list, inside you place <dt> and <dd> elements
-#### <dt>, <dd> term being defined, the definition; note, /"sometimes you might see a list where there are two terms used for the same definition or two different definitions for the same term./"
-
 **# Chapter 4 : Links (pp. 74-93)**
 - Links are created using the <a> element.
 - The <a> element uses the href attribute to indicate the page you are linking to.
 - If you are linking to a page within your own site, it is best to use relative links rather than qualified URLs.
 - You can create links to open email programs with an email address in the "to" field.
 - You can use the id attribute to target elements within a page that can be linked to.
-
-#### **Linking within own site (relative URLs)**
-#### > <a href="example.html">Example page</a> 'This doesn't need the domain name of the URL.
-
-#### **Linking to a specific part of another page (id attribute)**
-#### > Give your header an id attribute ...
-#### > <h2 id="example">example header</h2>
-#### > ...And at the top of the page create a link like this:
-#### > <a href="#example">title of the header you're linking to</a>
 
 **# Chapter 5 : Images (pp. 94-125)**
 - The <img> element is used to add images to a web page.
