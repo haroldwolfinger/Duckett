@@ -13,14 +13,15 @@
 - HTML elements are used to describe the structure of the page (e.g. headings, subheadings, paragraphs).
 - They also provide semantic information (e.g. where emphasis should be placed, the definition of any acronyms used, when given text is a quotation).
 
-### **Syntax**
-#### <h1></h1> ... <h6></h6>
-#### <p></p>
-#### <b></b> or <strong></strong> and <i></i> or <em></em> bold & italics
-#### <sup></sup> and <sub></sub> superscript & subscript
-#### <br /> and <hr /> line break and horizontal rule (empty element - doesn't need opening & closing tag)
-#### <blockquote></blockquote> longer quotes that take up an entire paragraph, usually indents the contents (although you shouldn't use this *just* to indent; instead, do it using CSS)
-#### <q></q> shorter quotes
+
+<dl> **Syntax**
+#### <dt> /<h1/>/<//h1/> ... /<h6/>/</h6/> </dt>
+#### <dt> /<p/>/<//p/> </dt>
+#### <dt> /<b/>/<//b/> or /<strong/>/<//strong/> and /<i/>/<//i/> or /<em/>/<//em/> bold & italics </dt>
+#### <dt> /<sup/>/<//sup/> and /<sub>/<//sub/> superscript & subscript </dt>
+#### <dt> /<br ///> and /<hr ///> line break and horizontal rule (empty element - doesn't need opening /& closing tag) </dt>
+#### <dt> /<blockquote/>/<//blockquote/> longer quotes that take up an entire paragraph, usually indents the contents (although you shouldn't use this *just* to indent; instead, do it using CSS) </dt>
+#### <dt> /<q/>/<//q/> shorter quotes </dt>
 
 #### **Other Syntax Mentioned (pp.53-56)**
 #### <abbr></abbr> use <abbr title=""> to specify the full term
@@ -34,6 +35,7 @@
 #### > </address>
 
 #### <ins></ins>, <del></del>, and <s></s> insert (underline), delete (strikethrough), and strikethrough (same)
+</dl>
 
 **# Chapter 3 : Lists (pp. 62-73)**
 - There are three types of HTML lists: ordered, unordered, and definition.
