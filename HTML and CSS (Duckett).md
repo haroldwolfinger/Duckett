@@ -21,44 +21,44 @@
 - Lists can be nested inside one another.
 
 **# Chapter 4 : Links (pp. 74-93)**
-- Links are created using the <a> element.
-- The <a> element uses the href attribute to indicate the page you are linking to.
+- Links are created using the &lt;a&gt; element.
+- The &lt;a&gt; element uses the href attribute to indicate the page you are linking to.
 - If you are linking to a page within your own site, it is best to use relative links rather than qualified URLs.
 - You can create links to open email programs with an email address in the "to" field.
 - You can use the id attribute to target elements within a page that can be linked to.
 
 **# Chapter 5 : Images (pp. 94-125)**
-- The <img> element is used to add images to a web page.
+- The &lt;img&gt; element is used to add images to a web page.
 - You must always specify an src attribute to indicate the source of an image and an alt attribute to describe the content of an image.
 - You should save images at the size you will be using them on the web page and in the appropriate format.
 - Photographs are best saved as JPEGs; illustrations or logos that use flat colors are better saved as GIFs.
 
 **# Chapter 6 : Tables (pp. 126-143)**
-- The <table> element is used to add tables to a web page.
+- The &lt;table&gt; element is used to add tables to a web page.
 - A table is drawn out row by row.  Each row is created with the &lt;tr&gt; element.
-- Inside each row there are a number of cells represented by the <td> element (or <th> if it is a header).
+- Inside each row there are a number of cells represented by the &lt;td&gt; element (or &lt;th&gt; if it is a header).
 - You can make cells of a table span more than one row or column using the rowspan and colspan attributes.
-- For long tables you can split the table into a <thread>, <tbody>, and <tfoot>.
+- For long tables you can split the table into a &lt;thread&gt;, &lt;tbody&gt;, and &lt;tfoot&gt;.
 
 **# Chapter 7 : Forms (pp. 144-175)**
-- Whenever you want to collect information from visitors you will need a form, which lives inside a <form> element.
+- Whenever you want to collect information from visitors you will need a form, which lives inside a &lt;form&gt; element.
 - Information from a form is sent in name/value pairs.
 - Each form control is given a name, and the text the user types in or the values of the options they select are sent to the server.
 - HTML5 introduces new form elements which make it easier for visitors to fill in forms.
 
 **# Chapter 8 : Extra Markup (pp. 176-199)**
 - DOCTYPES tell browsers which version of HTML you are using.
-- You can add comments to your code between the <!-- and --> markers.
+- You can add comments to your code between the &lt;!-- and --&gt; markers.
 - The id and class attributes allow you to identify particular elements.
-- The <div> and <span> elements allow you to group block-level ad inline elements together.
-- <iframes> cut windows into your web pages through which other pages can be displayed.
-- The <meta> tag allows you to supply all kinds of information about your web page.
-- Escape characters are used to include special characters in your pages such as <, >, and &#169.
+- The &lt;div&gt; and &lt;span&gt; elements allow you to group block-level ad inline elements together.
+- &lt;iframes&gt; cut windows into your web pages through which other pages can be displayed.
+- The &lt;meta&gt; tag allows you to supply all kinds of information about your web page.
+- Escape characters are used to include special characters in your pages such as &lt;, &gt;, and &#169.
 
 **# Chapter 9 : Flash, Video & Audio (pp. 200-225)**
 - Flash allows you to add animations, video and audio to the web.
 - Flash is not supported on iPhone or iPad.
-- HTML5 introduces new <video> and <audio> elements for adding video and audio to web pages, but these are only supported in the latest browsers.
+- HTML5 introduces new &lt;video&gt; and &lt;audio&gt; elements for adding video and audio to web pages, but these are only supported in the latest browsers.
 - Browsers that support the HTML5 elements do not all support the same video and audio formats, so you need to supply your files in different formats to ensure that everyone can see/hear them.
 
 **# Chapter 10: Introducing CSS (pp. 226-245)**
@@ -99,7 +99,7 @@
 - Forms benefit from styles that make them feel more interactive.
 
 **# Chapter 15: Layout (pp. 358-405)**
-- <div> elements are often used as containing elements to group together sections of a page.
+- &lt;div&gt; elements are often used as containing elements to group together sections of a page.
 - Browsers display pages in normal flow unless you specify relative, absolute, or fixed positioning.
 - The float property moves content to the left or right of the page and can be used to create multi-column layouts. (Floated items require a defined width.)
 - Pages can be fixed width or liquid (stretchy) layouts.
@@ -118,7 +118,7 @@
 
 **# Chapter 17: HTML5 Layout (pp. 428-451)**
 - The new HTML5 elements indicate the purpose of different parts of a web page and help to describe its structure.
-- The new elements provide clearer code (compared with using multiple <div> elements).
+- The new elements provide clearer code (compared with using multiple &lt;div&gt; elements).
 - Older browsers that do not understand HTML5 elements need to be told which elements are block-level elements.
 - To make HTML5 elements work in Internet Explorer 8 (and older versions of IE), extra JavaScript is needed, which is available free from Google.
 

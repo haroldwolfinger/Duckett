@@ -4,7 +4,7 @@ Introduction (pp. 1-10)
 
 C: How do I write a script for a web page?
 - It is best to keep JavaScript code in its own JavaScript file.  JavaScript files are text files (like HTML pages and CSS style sheets), but they have the .js extension.
-- The HTML <script> element is used in HTML pages to tell the browser to load the JavaScript file (rather like the <link> element can be used to load a CSS file).
+- The HTML &lt;script&gt; element is used in HTML pages to tell the browser to load the JavaScript file (rather like the &lt;link&gt; element can be used to load a CSS file).
 - If you view the source code of the page in the browser, the JavaScript will not have changed the HTML, because the script works with the model of the web page that the browser has created.
 
 // Single-line comment
@@ -31,7 +31,7 @@ C: How do I write a script for a web page?
 
 **# Chapter 4 : Decisions and Loops (pp. 145-182)**
 - Conditional statements allow your code to make decisions about what to do next.
-- Comparison operators (===, !==, ==, !=, <, >, <=, =>) are used to compare two operands.
+- Comparison operators (===, !==, ==, !=, &lt;, &gt;, &lt;=, =&gt;) are used to compare two operands.
 - Logical operators allow you to combine more than one set of comparison operators.
 - if...else statements allow you to run one set of code if a condition is true, and another if it is false.
 - switch statements allow you to compare a value against possible outcomes (and also provides a default option if none match).
